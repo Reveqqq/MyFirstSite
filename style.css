@@ -3,6 +3,7 @@
 *{
     font-size: 20px;
     font-family:  'Inter', sans-serif;
+    box-sizing: border-box;
 }
 
 #name{
@@ -10,14 +11,24 @@
     font-weight: bold;
 }
 
-#content{
+body{
     display: flex; 
-    height: 600px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    min-height: 80vh;
+    background-color:rgb(229, 238, 238);
+}
+
+#content{
     flex-direction: column;
     width: fit-content;
-    margin: 0 auto;
+    background-color: #ffff;  
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: rgba(37, 52, 74, 1);
+    border-radius: 10px;
+    padding: 35px 40px;
 }
 
 .box{
