@@ -1,6 +1,6 @@
 # MyFirstSite
 Albert Zagibin (zagibin.aa@students.dvfu.ru)
-reveq.ru
+http://reveq.ru
 
 ##Overview
 The goal of the project is to write my first website about myself.
