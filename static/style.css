@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans&display=swap');
 
-*{
+* {
     font-size: 23px;
     font-family:  'Inter', sans-serif;
     box-sizing: border-box;
 }
 
-#name{
+#name {
     font-size: 35px;
     font-weight: bold;
 }
 
-body{
+body {
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ body{
     background-color:rgb(229, 238, 238);
 }
 
-.content{
+.content {
     position: absolute;
     width: fit-content;    
     background-color: #ffff;  
@@ -30,7 +30,7 @@ body{
     padding: 45px 40px;
 }
 
-.box{
+.box {
     margin-bottom: 25px;
 }
 
@@ -39,22 +39,22 @@ body{
     line-height: 1.2em;
     position: relative;
     overflow: hidden;
-    
-  }
-  .scroller > span {
+}
+
+.scroller > span {
     position: absolute;
     top: 0;
-    animation: slide 9s infinite;
-    
+    animation: slide 9s infinite;  
+}
+
+@keyframes slide {
+  25% {
+      top: 0;
   }
-  @keyframes slide {
-    25% {
-        top: 0;
-    }
-    50% {
-        top: -1.2em;
-    }
-    75% {
-        top: -2.4em;
-    }
+  50% {
+      top: -1.2em;
   }
+  75% {
+      top: -2.4em;
+  }
+}
